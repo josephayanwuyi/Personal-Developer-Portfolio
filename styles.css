@@ -16,10 +16,10 @@ html {
 }
 
 :root {
-    --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-blue: #45567d;
-    --main-gray: #303841;
+    --main-white: #f5f3ff;
+    --main-red: #8b5cf6;
+    --main-blue: #312e81;
+    --main-gray: #4338ca;
 }
 
 body {
@@ -444,7 +444,7 @@ footer {
 @media (max-width: 480px) {
 
     .nav-list {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
     }
 
@@ -460,6 +460,7 @@ footer {
 
     .welcome-section > p {
         font-size: 1.2rem;
+        margin-top: -12px;
     }
     .projects-grid {
         grid-template-columns: 1fr;
